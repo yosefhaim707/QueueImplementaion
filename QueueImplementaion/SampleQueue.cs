@@ -66,5 +66,14 @@ namespace QueueImplementaion
         {
             Queue.Clear();
         }
+
+        // Get all elements
+        public void GetAllElements()
+        {
+            foreach (var item in Queue)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 }
